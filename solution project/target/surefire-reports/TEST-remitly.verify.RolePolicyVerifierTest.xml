@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="remilty.verify.RolePolicyVerifierTest" time="0.109" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="remitly.verify.RolePolicyVerifierTest" time="0.103" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="C:\Users\janek\.jdks\openjdk-19.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\janek\AppData\Local\Temp\surefire7711361696617681559\surefirebooter-20240421191638038_3.jar C:\Users\janek\AppData\Local\Temp\surefire7711361696617681559 2024-04-21T19-16-37_905-jvmRun1 surefire-20240421191638038_1tmp surefire_0-20240421191638038_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\janek\AppData\Local\Temp\surefire4938671193995107707\surefirebooter-20240421231441573_3.jar C:\Users\janek\AppData\Local\Temp\surefire4938671193995107707 2024-04-21T23-14-41_493-jvmRun1 surefire-20240421231441573_1tmp surefire_0-20240421231441573_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\janek\IdeaProjects\remilty-verifier\target\test-classes;C:\Users\janek\IdeaProjects\remilty-verifier\target\classes;C:\Users\janek\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\janek\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\janek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\janek\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\janek\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\janek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\janek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\janek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\janek\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\janek\AppData\Local\Temp\surefire7711361696617681559\surefirebooter-20240421191638038_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\janek\AppData\Local\Temp\surefire4938671193995107707\surefirebooter-20240421231441573_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -59,10 +59,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="verifyPolicyInvalidPolicyExpectedThrows" classname="remilty.verify.RolePolicyVerifierTest" time="0.075"/>
-  <testcase name="verifyPolicyValidPolicyExpectedFalse" classname="remilty.verify.RolePolicyVerifierTest" time="0.003"/>
-  <testcase name="rolePolicyVerifierConstructorCorrectPath" classname="remilty.verify.RolePolicyVerifierTest" time="0.003"/>
-  <testcase name="verifyPolicyValidPolicyExpectedTrue" classname="remilty.verify.RolePolicyVerifierTest" time="0.002"/>
-  <testcase name="verifyPolicyValidPolicyMultipleStatementsExpectedFalse" classname="remilty.verify.RolePolicyVerifierTest" time="0.001"/>
-  <testcase name="rolePolicyVerifierConstructorIncorrectPath" classname="remilty.verify.RolePolicyVerifierTest" time="0.001"/>
+  <testcase name="verifyPolicyInvalidPolicyExpectedThrows" classname="remitly.verify.RolePolicyVerifierTest" time="0.071"/>
+  <testcase name="verifyPolicyValidPolicyExpectedFalse" classname="remitly.verify.RolePolicyVerifierTest" time="0.002"/>
+  <testcase name="rolePolicyVerifierConstructorCorrectPath" classname="remitly.verify.RolePolicyVerifierTest" time="0.004"/>
+  <testcase name="verifyPolicyValidPolicyExpectedTrue" classname="remitly.verify.RolePolicyVerifierTest" time="0.002"/>
+  <testcase name="verifyPolicyValidPolicyMultipleStatementsExpectedFalse" classname="remitly.verify.RolePolicyVerifierTest" time="0.0"/>
+  <testcase name="rolePolicyVerifierConstructorIncorrectPath" classname="remitly.verify.RolePolicyVerifierTest" time="0.001"/>
 </testsuite>

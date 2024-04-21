@@ -1,5 +1,5 @@
-import remilty.verify.IncorrectPolicyFormatException;
-import remilty.verify.RolePolicyVerifier;
+import remitly.verify.IncorrectPolicyFormatException;
+import remitly.verify.RolePolicyVerifier;
 
 import java.io.FileNotFoundException;
 

@@ -2,5 +2,5 @@ jsonpolicy\Statement.class
 jsonpolicy\RolePolicy.class
 Main.class
 jsonpolicy\PolicyDocument.class
-remilty\verify\RolePolicyVerifier.class
-remilty\verify\IncorrectPolicyFormatException.class
+remitly\verify\IncorrectPolicyFormatException.class
+remitly\verify\RolePolicyVerifier.class

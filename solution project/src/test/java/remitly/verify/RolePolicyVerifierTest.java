@@ -1,4 +1,4 @@
-package remilty.verify;
+package remitly.verify;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

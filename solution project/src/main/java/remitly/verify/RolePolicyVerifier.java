@@ -1,4 +1,4 @@
-package remilty.verify;
+package remitly.verify;
 
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
