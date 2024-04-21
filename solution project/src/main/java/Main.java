@@ -8,7 +8,7 @@ import static java.lang.System.exit;
 public class Main {
     public static void main(String[] args) {
         if (args.length != 1) {
-            System.err.println("[WARNING] Usage: java -jar ./remilty-internship-1.0.jar <path_to_policy_file>");
+            System.err.println("[WARNING] Usage: java -jar ./remitly-internship-1.0.jar <path_to_policy_file>");
             exit(1);
         }
         String path = args[0];
