@@ -13,6 +13,8 @@ This repository includes both the project with all the source code and tests cod
 3. ```bash
    java -jar ./remilty-verifier-1.0.jar <path-to-JSON-policy-file>
    ```
+#### Example
+![Example Usage Screenshot](/resources/usage-example.png)
 
    
 ### Alternatively
