@@ -5,7 +5,7 @@ This repository includes both the project with all the source code and tests cod
 ---
 
 ### Prerequisites
-- [Java](https://www.oracle.com/pl/java/technologies/downloads/)
+- [Java version 17 or higher](https://www.oracle.com/pl/java/technologies/downloads/) 
 
 ### How to run
 1. Download the [jar](https://github.com/jmardyla/Remitly-Solution/blob/main/remitly-verifier-1.0.jar) from the repository or clone the whole repository
@@ -42,7 +42,7 @@ public class Main {
 ```
 
 ### Tech Stack
-- Java Oracle OpenJDK version 19
+- Java Oracle OpenJDK version 17
 - [Gson](https://github.com/google/gson) 2.10.1
 - JUnit 5.9.0
 - Maven 3
