@@ -25,14 +25,14 @@ public class RolePolicyVerifier {
 
     /**
      * Validates the policy format (contains all required fields)
-     * and checks if the policy resource field in every statement is set to "*"
-     * @return true if resource field in every statement is set to "*"
+     * and checks if the policy resource field in each statement is set to "*"
+     * @return true if resource field in every statement is different from "*", false otherwise
      * @throws IncorrectPolicyFormatException - if the policy file does not meet the format requirements
      */
     public boolean verifyPolicy() throws IncorrectPolicyFormatException {
         validatePolicyFormat();
 
-        return policy.PolicyDocument().Statement().stream().allMatch(statement -> statement.Resource().equals("*"));
+        return policy.PolicyDocument().Statement().stream().noneMatch(statement -> statement.Resource().equals("*"));
     }
 
     private void validatePolicyFormat() throws IncorrectPolicyFormatException {

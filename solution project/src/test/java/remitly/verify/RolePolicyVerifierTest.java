@@ -23,7 +23,7 @@ class RolePolicyVerifierTest {
     }
 
     @Test
-    void verifyPolicyValidPolicyExpectedTrue() {
+    void verifyPolicyValidPolicyExpectedFalse() {
         RolePolicyVerifier verifier = null;
         try {
             verifier = new RolePolicyVerifier("src/test/resources/valid_policy.json");
@@ -32,14 +32,14 @@ class RolePolicyVerifierTest {
         }
 
         try {
-            assertTrue(verifier.verifyPolicy());
+            assertFalse(verifier.verifyPolicy());
         } catch (IncorrectPolicyFormatException e) {
             fail("Unexpected exception: " + e.getMessage());
         }
     }
 
     @Test
-    void verifyPolicyValidPolicyExpectedFalse() {
+    void verifyPolicyValidPolicyExpectedTrue() {
         RolePolicyVerifier verifier = null;
         try {
             verifier = new RolePolicyVerifier("src/test/resources/valid_policy_wrong_resource.json");
@@ -48,7 +48,7 @@ class RolePolicyVerifierTest {
         }
 
         try {
-            assertFalse(verifier.verifyPolicy());
+            assertTrue(verifier.verifyPolicy());
         } catch (IncorrectPolicyFormatException e) {
             fail("Unexpected exception: " + e.getMessage());
         }
